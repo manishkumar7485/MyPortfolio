@@ -5,7 +5,8 @@ import {
   FileText, Download, BookOpen, ExternalLink, X, Eye
 } from "lucide-react";
 
-const A = "/src/assets/";
+// const A = "/src/assets/";
+const A = import.meta.env.BASE_URL + "assets/";
 
 const testimonials = [
   { name: "Abhimanyu Payasi", image: "Abhimanyu.png", text: "Abhimanyu was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client." },
