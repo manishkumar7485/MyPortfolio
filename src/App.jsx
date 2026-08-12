@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   Mail, Phone, CalendarDays, MapPin, ChevronDown, Github, Linkedin,
   Instagram, Facebook, Twitter, Code2, Palette, Monitor, Send,
